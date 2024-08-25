@@ -1,0 +1,16 @@
+.pagina-nao-encontrada{
+    background-color: white;
+    
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    min-height: 100vh;
+    
+    .icone-nao-encontrado{
+        width: 50vh ;
+    }
+}

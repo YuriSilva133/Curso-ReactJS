@@ -1,0 +1,18 @@
+.pagina-contato{
+    text-align: left;
+    
+    .cabecalho{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .icone{
+        width: 50px;
+    }
+    
+    .voltar{
+        font-size: 25px;
+    }
+}
+

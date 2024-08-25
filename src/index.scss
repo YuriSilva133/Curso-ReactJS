@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+a, a:visited{
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.pagina{
+    background-color: #e2e2e2;
+    min-height: 100vh;
+  
+
+  .cabecalho{
+    display: flex;
+    color: rgb(36, 36, 36);
+    align-items: center;
+
+    background-color: #f7f7f7;
+    padding: 20px 40px;
+    
+    h1{
+      margin-right: 5px;
+      font: 700 28px 'poppins';
+      color: rgb(36, 26, 26);
+    }
+
+    i{
+      color: red;
+    }
+  }
+  
+  .secao {
+      background-color: #fff;
+      box-shadow: 0px 0px 15px 2px #dadada;
+
+      padding: 30px;
+      border-radius: 5px;
+
+      margin: 50px 60px;
+      max-width: 1000px;
+      font: 400 20px 'poppins';
+    
+    h1{
+      font: 700 25px 'poppins';
+      color: #3b3b3b;
+      margin-bottom: 30px;
+    }
+
+    input, select, textarea{
+        min-width: 400px;
+        padding: 5px;
+        border: 2px solid #d6d6d6;
+
+        font: 400 20px 'poppins';
+        color: #535353;
+        
+        border-radius: 3px;
+        border-width: 1px;
+        outline: none;
+    }
+
+    input[type=checkbox], input[type=radio]{
+       min-width: auto;
+    }
+
+    button{
+        padding: 7px 12px;
+        border-radius: 3px;
+
+        font: 400 18px 'poppins';
+        color: #FFF;
+        background-color: #4b75ff;
+
+        border: none;
+    }
+  }
+}

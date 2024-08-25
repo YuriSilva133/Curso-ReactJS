@@ -1,0 +1,31 @@
+
+.pagina-chamada-api{
+
+    .correio{
+        p{
+            margin-top: 50px;
+            font: 500 24px 'Poppins';
+        }
+    }
+
+    .omdb{
+        .lista-filmes{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .entradas{
+            margin-bottom: 20px;
+        }
+
+        table{
+            margin-top: 50px;
+            width: 100%;
+
+            th{
+                text-align: left;
+            }
+        }
+    }
+}
